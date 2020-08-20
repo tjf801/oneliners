@@ -1,0 +1,1 @@
+print((lambda n:not any(n%i==0 for i in range(2,int(__import__('math').sqrt(n)+1))))(int(input())))
